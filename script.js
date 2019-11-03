@@ -1830,7 +1830,7 @@ function compile() {
         [Q166A[3]]: ""
       },
       correctAnswer: Q166A[0]
-    }
+    },
     {
       question: "In a recreational vehicle, hose must not be used in lieu of piping or tubing, but may be used in conjunction with: ",
       answers: {
