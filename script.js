@@ -1202,7 +1202,7 @@ function compile() {
       correctAnswer: Q104A[0]
     },
     {
-      question: "Any piping or tubing that is to pass through an outside wall below ground level, shall be provided with "what" at the point of passing?",
+      question: "Any piping or tubing that is to pass through an outside wall below ground level, shall be provided with 'what' at the point of passing?",
       answers: {
         [Q105A[0]]: "",
         [Q105A[1]]: "",
