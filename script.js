@@ -179,7 +179,7 @@ function compile() {
         [Q1A[2]]: "",
         [Q1A[3]]: ""
       },
-      correctAnswer: Q1A[0]
+      correctAnswer: "Plastic, steel, or copper"
     },
     {
       question: "If removed from an existing gas installation that did not use natural gas, the piping, tubing and fittings can be reused with natural gas if they have been ascertained to be equivalent to new material and: ",
@@ -189,7 +189,7 @@ function compile() {
         [Q2A[2]]: "",
         [Q2A[3]]: ""
       },
-      correctAnswer: Q2A[0]
+      correctAnswer: "The piping, tubing or fittings to be used are cleaned, inspected and tested"
     },
     {
       question: "Piping shall comply with which of the following standards? ",
@@ -199,7 +199,7 @@ function compile() {
         [Q3A[2]]: "",
         [Q3A[3]]: ""
       },
-      correctAnswer: Q3A[0]
+      correctAnswer: "ASTM A53/A53 M or ASTM A106"
     },
     {
       question: "A malleable iron fitting is used with a stretch of steel pipe. Which standard must this fitting comply with? ",
@@ -209,7 +209,7 @@ function compile() {
         [Q4A[2]]: "",
         [Q4A[3]]: ""
       },
-      correctAnswer: Q4A[0]
+      correctAnswer: "ASTM A53/A53 M or ASTM A106"
     },
     {
       question: "Natural gas or propane vapour phase piping that is at least standard weight, can operate to pressures up to and including: ",
@@ -219,7 +219,7 @@ function compile() {
         [Q5A[2]]: "",
         [Q5A[3]]: ""
       },
-      correctAnswer: Q5A[0]
+      correctAnswer: "ANSI/ASME B16.3 or certified to ANSI LC-4/CSA 6.32"
     },
     {
       question: "A stretch of Type G copper tubing used in a gas system, must comply with which of the following standards? ",
