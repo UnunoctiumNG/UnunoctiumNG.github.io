@@ -1,5 +1,5 @@
 const Q1A = ["Plastic, steel, or copper", "", "", ""]
-const Q2A = ["The piping, tubing or fittings to be used are cleaned, inspected and tested", "", "", ""]
+const Q2A = ["The piping, tubing or fittings to be used are cleaned, inspected and tested", "2", "3", "1"]
 const Q3A = ["ASTM A53/A53 M or ASTM A106", "", "", ""]
 const Q4A = ["ANSI/ASME B16.3 or certified to ANSI LC-4/CSA 6.32", "", "", ""]
 const Q5A = ["125 psig (860 kPa)", "", "", ""]
@@ -690,16 +690,6 @@ function compile() {
         [Q52A[3]]: ""
       },
       correctAnswer: Q52A[0]
-    },
-    {
-      question: "Each vertical piping chase shall have an opening at the top and bottom, and the opening shall have a minimum area equivalent to a round opening of:",
-      answers: {
-        [Q53A[0]]: "",
-        [Q53A[1]]: "",
-        [Q53A[2]]: "",
-        [Q53A[3]]: ""
-      },
-      correctAnswer: Q53A[0]
     },
     {
       question: "Identify which of the following clauses states: 'Piping may be installed in a false ceiling space, including one used as a return-air plenum of a central warm-air or air-conditioning system.'",
@@ -2090,6 +2080,7 @@ function compile() {
     shuffle(Q165A);
     shuffle(Q166A);
     shuffle(Q167A);
+
 
     buildQuiz();
    }
