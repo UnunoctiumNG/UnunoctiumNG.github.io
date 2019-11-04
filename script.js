@@ -1789,7 +1789,7 @@ function compile() {
         [Q162A[2]]: "",
         [Q162A[3]]: ""
       },
-      correctAnswer: 'Constant attendance'
+      correctAnswer: "Constant attendance"
     },
     {
       question: "When a piping or tubing system is to be purged to the outdoors, the purging line must not terminate within how many feet of a building or air intake?",
