@@ -3,7 +3,7 @@ const Q2A = ["The piping, tubing or fittings to be used are cleaned, inspected a
 const Q3A = ["ASTM A53/A53 M or ASTM A106", "", "", ""]
 const Q4A = ["ANSI/ASME B16.3 or certified to ANSI LC-4/CSA 6.32", "", "", ""]
 const Q5A = ["125 psig (860 kPa)", "", "", ""]
-const Q6A = ["ASTM B837 ", "", "", ""]
+const Q6A = ["ASTM B837", "", "", ""]
 const Q7A = ["ASTM B88", "", "", ""]
 const Q8A = ["ASTM B88", "", "", ""]
 const Q9A = ["Externally machined", "", "", ""]
@@ -170,7 +170,7 @@ var displayQuestions = false
 
 function compile() {
   displayQuestions = true;
-  let theQuestions = [
+  const theQuestions = [
     {
       question: "A gas piping or tubing system shall be of which of the following materials?",
       answers: {
@@ -209,7 +209,7 @@ function compile() {
         [Q4A[2]]: "",
         [Q4A[3]]: ""
       },
-      correctAnswer: "ASTM A53/A53 M or ASTM A106"
+      correctAnswer: "ANSI/ASME B16.3 or certified to ANSI LC-4/CSA 6.32"
     },
     {
       question: "Natural gas or propane vapour phase piping that is at least standard weight, can operate to pressures up to and including: ",
@@ -219,7 +219,7 @@ function compile() {
         [Q5A[2]]: "",
         [Q5A[3]]: ""
       },
-      correctAnswer: "ANSI/ASME B16.3 or certified to ANSI LC-4/CSA 6.32"
+      correctAnswer: "125 psig (860 kPa)"
     },
     {
       question: "A stretch of Type G copper tubing used in a gas system, must comply with which of the following standards? ",
@@ -229,7 +229,7 @@ function compile() {
         [Q6A[2]]: "",
         [Q6A[3]]: ""
       },
-      correctAnswer: Q6A[0]
+      correctAnswer: "ASTM B837"
     },
     {
       question: "A stretch of Type K copper tubing used in a gas system, must comply with which of the following standards? ",
@@ -239,7 +239,7 @@ function compile() {
         [Q7A[2]]: "",
         [Q7A[3]]: ""
       },
-      correctAnswer: Q7A[0]
+      correctAnswer: "ASTM B88"
     },
     {
       question: "A stretch of Type L copper tubing used in a gas system, must comply with which of the following standards? ",
@@ -249,7 +249,7 @@ function compile() {
         [Q8A[2]]: "",
         [Q8A[3]]: ""
       },
-      correctAnswer: Q8A[0]
+      correctAnswer: "ASTM B88"
     },
     {
       question: "Flare nuts must be forged from UNS C37700 brass, and shall not be: ",
@@ -259,7 +259,7 @@ function compile() {
         [Q9A[2]]: "",
         [Q9A[3]]: ""
       },
-      correctAnswer: Q9A[0]
+      correctAnswer: "Externally machined"
     },
     {
       question: "A tubing fitting is to be installed into a piping system. The operating pressure of the piping system is 82 psig (565 kPa). What is the minimum required pressure rating for the tubing fitting? ",
@@ -269,7 +269,7 @@ function compile() {
         [Q10A[2]]: "",
         [Q10A[3]]: ""
       },
-      correctAnswer: Q10A[0]
+      correctAnswer: "125 psig (860 kPa)"
     },
     {
       question: "A stretch of Type L copper tubing is to be laid underground. Which of the following materials must the tubing be externally coated with, at the time of manufacture? ",
@@ -279,7 +279,7 @@ function compile() {
         [Q11A[2]]: "",
         [Q11A[3]]: ""
       },
-      correctAnswer: Q11A[0]
+      correctAnswer: "Extruded polyethylene or PVC resin"
     },
     {
       question: "Type K Copper tubing placed underground, must be externally coated with what material during the time of manufacture? ",
@@ -289,7 +289,7 @@ function compile() {
         [Q12A[2]]: "",
         [Q12A[3]]: ""
       },
-      correctAnswer: Q12A[0]
+      correctAnswer: "Type K copper tubing placed underground, does not need to be coated with any material during the time of manufacture."
     },
     {
       question: "Tubing shall consist of which of the following? ",
@@ -299,7 +299,7 @@ function compile() {
         [Q13A[2]]: "",
         [Q13A[3]]: ""
       },
-      correctAnswer: Q13A[0]
+      correctAnswer: "Seamless copper"
     },
     {
       question: "A hose or hose fitting not used in a cutting or welding system shall have a minimum working pressure of 350 psig (2400 kPA) and comply with which of the following standards? ",
@@ -309,7 +309,7 @@ function compile() {
         [Q14A[2]]: "",
         [Q14A[3]]: ""
       },
-      correctAnswer: Q14A[0]
+      correctAnswer: "CSA CAN1-8.3 or CSA CAN/CGA 8.1"
     },
     {
       question: "A hose used in a welding system hall comply with which of the following standards? ",
