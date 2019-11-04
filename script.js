@@ -689,17 +689,7 @@ function compile() {
         [Q52A[2]]: "",
         [Q52A[3]]: ""
       },
-      correctAnswer: "Encasing the piping or tubing in ducts so that there is free air space around the pipe or tube. Such a duct shall be ventilated."
-    },
-    {
-      question: "Each vertical piping chase shall have an opening at the top and bottom, and the opening shall have a minimum area equivalent to a round opening of: ",
-      answers: {
-        [Q53A[0]]: "",
-        [Q53A[1]]: "",
-        [Q53A[2]]: "",
-        [Q53A[3]]: ""
-      },
-      correctAnswer: "1 inch in diameter"
+      correctAnswer: Q52A[0]
     },
     {
       question: "Identify which of the following clauses states: 'Piping may be installed in a false ceiling space, including one used as a return-air plenum of a central warm-air or air-conditioning system.'",
@@ -709,7 +699,7 @@ function compile() {
         [Q54A[2]]: "",
         [Q54A[3]]: ""
       },
-      correctAnswer: "Clause 6.7.6"
+      correctAnswer: Q54A[0]
     },
     {
       question: "Piping and fittings shall be clear and free from: ",
@@ -719,7 +709,7 @@ function compile() {
         [Q55A[2]]: "",
         [Q55A[3]]: ""
       },
-      correctAnswer: "Cutting burrs, threading burrs, scale and defects"
+      correctAnswer: Q55A[0]
     },
     {
       question: "The ends of all piping shall be: ",
@@ -729,7 +719,7 @@ function compile() {
         [Q56A[2]]: "",
         [Q56A[3]]: ""
       },
-      correctAnswer: "Reamed"
+      correctAnswer: Q56A[0]
     },
     {
       question: "Piping or tubing shall not be supported by:",
@@ -739,7 +729,7 @@ function compile() {
         [Q57A[2]]: "",
         [Q57A[3]]: ""
       },
-      correctAnswer: "Other piping or tubing"
+      correctAnswer: Q57A[0]
     },
     {
       question: "A girder, beam, joist or other structural member must not be cut for the installation of piping in such a manner as to reduce its strength below: ",
@@ -749,7 +739,7 @@ function compile() {
         [Q58A[2]]: "",
         [Q58A[3]]: ""
       },
-      correctAnswer: "That required for the purpose for which it is intended"
+      correctAnswer: Q58A[0]
     },
     {
       question: "When air, oxygen, or another gas under pressure is used in connection with the gas supply, what shall be provided as close as practicable to the point of interconnection? ",
@@ -759,7 +749,7 @@ function compile() {
         [Q59A[2]]: "",
         [Q59A[3]]: ""
       },
-      correctAnswer: "A back check valve, or other suitable equipment"
+      correctAnswer: Q59A[0]
     },
     {
       question: "What must be installed directly downstream of a filter, when a filter is used in a piping system?",
@@ -769,7 +759,7 @@ function compile() {
         [Q60A[2]]: "",
         [Q60A[3]]: ""
       },
-      correctAnswer: "A low-pressure indicator"
+      correctAnswer: Q60A[0]
     },
     {
       question: "Manufacturer's fabricated fittings are to be used in welded piping systems except as permitted in: ",
@@ -779,7 +769,7 @@ function compile() {
         [Q61A[2]]: "",
         [Q61A[3]]: ""
       },
-      correctAnswer: "Clause 6.8.8"
+      correctAnswer: Q61A[0]
     },
     {
       question: "In the case where a gas supply header is NPS 2-1/2 or larger, the branch line connection may be a job-fabricated welded fitting, only if: ",
