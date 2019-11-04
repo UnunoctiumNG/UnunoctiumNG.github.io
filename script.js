@@ -1,3 +1,7 @@
+
+
+var displayQuestions = false
+
 const Q1A = ["Plastic, steel, or copper", "", "", ""]
 const Q2A = ["The piping, tubing or fittings to be used are cleaned, inspected and tested", "2", "3", "1"]
 const Q3A = ["ASTM A53/A53 M or ASTM A106", "", "", ""]
@@ -166,11 +170,9 @@ const Q165A = ["All piping and tubing systems and hose have been purged", "", ""
 const Q166A = ["NPS 1", "", "", ""]
 const Q167A = ["Piping or tubing", "", "", ""]
 
-var displayQuestions = false
-
 function compile() {
   displayQuestions = true;
-  const theQuestions = [
+  let theQuestions = [
     {
       question: "A gas piping or tubing system shall be of which of the following materials?",
       answers: {
