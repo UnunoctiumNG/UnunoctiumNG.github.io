@@ -652,7 +652,7 @@ function compile() {
       correctAnswer: "24 inches"
     },
     {
-      question: "Concealed piping or tubing containing fitting or joints hall not be run where the fittings or joins cannot be: ",
+      question: "Concealed piping or tubing containing fitting or joints shall not be run where the fittings or joints cannot be: ",
       answers: {
         [Q49A[0]]: "",
         [Q49A[1]]: "",
