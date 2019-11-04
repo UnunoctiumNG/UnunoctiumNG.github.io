@@ -179,7 +179,7 @@ function compile() {
         [Q1A[2]]: "",
         [Q1A[3]]: ""
       },
-      correctAnswer: "Plastic, steel, or copper"
+      correctAnswer: Q1A[0]
     },
     {
       question: "If removed from an existing gas installation that did not use natural gas, the piping, tubing and fittings can be reused with natural gas if they have been ascertained to be equivalent to new material and: ",
@@ -189,7 +189,7 @@ function compile() {
         [Q2A[2]]: "",
         [Q2A[3]]: ""
       },
-      correctAnswer: "The piping, tubing or fittings to be used are cleaned, inspected and tested"
+      correctAnswer: Q2A[0]
     },
     {
       question: "Piping shall comply with which of the following standards? ",
@@ -199,7 +199,7 @@ function compile() {
         [Q3A[2]]: "",
         [Q3A[3]]: ""
       },
-      correctAnswer: "ASTM A53/A53 M or ASTM A106"
+      correctAnswer: Q3A[0]
     },
     {
       question: "A malleable iron fitting is used with a stretch of steel pipe. Which standard must this fitting comply with? ",
