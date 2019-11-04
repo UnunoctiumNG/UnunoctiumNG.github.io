@@ -1,9 +1,9 @@
-const Q1A = ["Plastic, steel, or copper", "Iron, copper, or plastic", "Tin, copper, or plastic", "Steel, plastic, or iron"]
+const Q1A = ["Plastic, steel, or copper", "", "", ""]
 const Q2A = ["The piping, tubing or fittings to be used are cleaned, inspected and tested", "2", "3", "1"]
 const Q3A = ["ASTM A53/A53 M or ASTM A106", "", "", ""]
 const Q4A = ["ANSI/ASME B16.3 or certified to ANSI LC-4/CSA 6.32", "", "", ""]
 const Q5A = ["125 psig (860 kPa)", "", "", ""]
-const Q6A = ["ASTM B837", "", "", ""]
+const Q6A = ["ASTM B837 ", "", "", ""]
 const Q7A = ["ASTM B88", "", "", ""]
 const Q8A = ["ASTM B88", "", "", ""]
 const Q9A = ["Externally machined", "", "", ""]
@@ -209,7 +209,7 @@ function compile() {
         [Q4A[2]]: "",
         [Q4A[3]]: ""
       },
-      correctAnswer: "ANSI/ASME B16.3 or certified to ANSI LC-4/CSA 6.32"
+      correctAnswer: Q4A[0]
     },
     {
       question: "Natural gas or propane vapour phase piping that is at least standard weight, can operate to pressures up to and including: ",
@@ -219,7 +219,7 @@ function compile() {
         [Q5A[2]]: "",
         [Q5A[3]]: ""
       },
-      correctAnswer: "125 psig (860 kPa)"
+      correctAnswer: Q5A[0]
     },
     {
       question: "A stretch of Type G copper tubing used in a gas system, must comply with which of the following standards? ",
@@ -229,7 +229,7 @@ function compile() {
         [Q6A[2]]: "",
         [Q6A[3]]: ""
       },
-      correctAnswer: "ASTM B837"
+      correctAnswer: Q6A[0]
     },
     {
       question: "A stretch of Type K copper tubing used in a gas system, must comply with which of the following standards? ",
@@ -239,7 +239,7 @@ function compile() {
         [Q7A[2]]: "",
         [Q7A[3]]: ""
       },
-      correctAnswer: "ASTM B88"
+      correctAnswer: Q7A[0]
     },
     {
       question: "A stretch of Type L copper tubing used in a gas system, must comply with which of the following standards? ",
@@ -249,7 +249,7 @@ function compile() {
         [Q8A[2]]: "",
         [Q8A[3]]: ""
       },
-      correctAnswer: "ASTM B88"
+      correctAnswer: Q8A[0]
     },
     {
       question: "Flare nuts must be forged from UNS C37700 brass, and shall not be: ",
@@ -259,7 +259,7 @@ function compile() {
         [Q9A[2]]: "",
         [Q9A[3]]: ""
       },
-      correctAnswer: "Externally machined"
+      correctAnswer: Q9A[0]
     },
     {
       question: "A tubing fitting is to be installed into a piping system. The operating pressure of the piping system is 82 psig (565 kPa). What is the minimum required pressure rating for the tubing fitting? ",
@@ -269,7 +269,7 @@ function compile() {
         [Q10A[2]]: "",
         [Q10A[3]]: ""
       },
-      correctAnswer: "125 psig (860 kPa)"
+      correctAnswer: Q10A[0]
     },
     {
       question: "A stretch of Type L copper tubing is to be laid underground. Which of the following materials must the tubing be externally coated with, at the time of manufacture? ",
@@ -279,7 +279,7 @@ function compile() {
         [Q11A[2]]: "",
         [Q11A[3]]: ""
       },
-      correctAnswer: "Extruded polyethylene or PVC resin"
+      correctAnswer: Q11A[0]
     },
     {
       question: "Type K Copper tubing placed underground, must be externally coated with what material during the time of manufacture? ",
@@ -289,7 +289,7 @@ function compile() {
         [Q12A[2]]: "",
         [Q12A[3]]: ""
       },
-      correctAnswer: "Type K copper tubing placed underground, does not need to be coated with any material during the time of manufacture."
+      correctAnswer: Q12A[0]
     },
     {
       question: "Tubing shall consist of which of the following? ",
@@ -299,7 +299,7 @@ function compile() {
         [Q13A[2]]: "",
         [Q13A[3]]: ""
       },
-      correctAnswer: "Seamless copper"
+      correctAnswer: Q13A[0]
     },
     {
       question: "A hose or hose fitting not used in a cutting or welding system shall have a minimum working pressure of 350 psig (2400 kPA) and comply with which of the following standards? ",
@@ -309,7 +309,7 @@ function compile() {
         [Q14A[2]]: "",
         [Q14A[3]]: ""
       },
-      correctAnswer: "CSA CAN1-8.3 or CSA CAN/CGA 8.1"
+      correctAnswer: Q14A[0]
     },
     {
       question: "A hose used in a welding system hall comply with which of the following standards? ",
@@ -319,7 +319,7 @@ function compile() {
         [Q15A[2]]: "",
         [Q15A[3]]: ""
       },
-      correctAnswer: "CAN/CSA-W117.2"
+      correctAnswer: Q15A[0]
     },
     {
       question: "A material used in a piping system is not specified in Clause 6.2. This material may only be used on the condition that it: ",
@@ -329,7 +329,7 @@ function compile() {
         [Q16A[2]]: "",
         [Q16A[3]]: ""
       },
-      correctAnswer: "Conforms to a nationally recognized standard or to a test report of a nationally recognized certification organization."
+      correctAnswer: Q16A[0]
     },
     {
       question: "Plastic piping and tubing shall comply with which of the following standards? ",
@@ -339,7 +339,7 @@ function compile() {
         [Q17A[2]]: "",
         [Q17A[3]]: ""
       },
-      correctAnswer: "CSA B137.4"
+      correctAnswer: Q17A[0]
     },
     {
       question: "A fitting that is used in a plastic piping system must comply with which of the following standards? ",
@@ -349,7 +349,7 @@ function compile() {
         [Q18A[2]]: "",
         [Q18A[3]]: ""
       },
-      correctAnswer: "CSA B137.4 or CSA B137.4.1
+      correctAnswer: Q18A[0]
     },
     {
       question: "When installing piping for a liquid propane system, which of the following may not be used? ",
@@ -359,7 +359,7 @@ function compile() {
         [Q19A[2]]: "",
         [Q19A[3]]: ""
       },
-      correctAnswer: "Plastic piping"
+      correctAnswer: Q19A[0]
     },
     {
       question: "A system of plastic piping that does not terminate above ground and outside the building, may only be used for: ",
@@ -369,7 +369,7 @@ function compile() {
         [Q20A[2]]: "",
         [Q20A[3]]: ""
       },
-      correctAnswer: "Outdoor underground service"
+      correctAnswer: Q20A[0]
     },
     {
       question: "A piping system is to be set up on the downstream side of a vaporizer in a propane application. This piping system will consist of steel pipe and plastic pipe. Starting from the propane application, the plastic pipe must NOT be used in the pipeline, for a minimum of how many feet? ",
@@ -379,7 +379,7 @@ function compile() {
         [Q21A[2]]: "",
         [Q21A[3]]: ""
       },
-      correctAnswer: "10 feet"
+      correctAnswer: Q21A[0]
     },
     {
       question: "Plastic piping shall not be used where the steady-state operating temperature of the materials will exceed how many degrees? ",
@@ -389,7 +389,7 @@ function compile() {
         [Q22A[2]]: "",
         [Q22A[3]]: ""
       },
-      correctAnswer: "86 F (30 C)"
+      correctAnswer: Q22A[0]
     },
     {
       question: "Plastic piping shall not used wherever ambient temperatures exceed how many degrees? ",
@@ -399,7 +399,7 @@ function compile() {
         [Q23A[2]]: "",
         [Q23A[3]]: ""
       },
-      correctAnswer: "122 F (50 C)"
+      correctAnswer: Q23A[0]
     },
     {
       question: "A stretch of plastic piping terminates above ground and outside the building. The piping has already been completely encased with a certified metallic sheathing that extends a minimum of 6 inches below grade. What must also be ensured in addition to this? ",
@@ -409,7 +409,7 @@ function compile() {
         [Q24A[2]]: "",
         [Q24A[3]]: ""
       },
-      correctAnswer: "The plastic piping or tubing is not subject to external loading stresses created by other piping, appliances, or equipment."
+      correctAnswer: Q24A[0]
     },
     {
       question: "Corrugated stainless steel tubing (CSST) must comply with which of the following standards? ",
@@ -419,7 +419,7 @@ function compile() {
         [Q25A[2]]: "",
         [Q25A[3]]: ""
       },
-      correctAnswer: "ANSI/LC 1/CSA 6.26"
+      correctAnswer: Q25A[0]
     },
     {
       question: "Corrugated stainless steel tubing (CSST) that does not comply with ANSI/LC 1/CSA 6.26, may be permitted on the grounds that it complies with: ",
