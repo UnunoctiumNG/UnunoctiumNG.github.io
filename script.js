@@ -429,7 +429,7 @@ function compile() {
         [Q26A[2]]: "",
         [Q26A[3]]: ""
       },
-      correctAnswer: "CSA publication CGA Certification Laboratory Requirement LAB-009"
+      correctAnswer: Q26A[0]
     },
     {
       question: "An HVAC technician wishes to use corrugated stainless steel tubing (CSST) as a gas connector. Is this permitted? ",
@@ -439,7 +439,7 @@ function compile() {
         [Q27A[2]]: "",
         [Q27A[3]]: ""
       },
-      correctAnswer: "No"
+      correctAnswer: Q27A[0]
     },
     {
       question: "Piping, tubing and hose shall be of sufficient size to provide a supply of gas to meet the requirements of: ",
@@ -449,7 +449,7 @@ function compile() {
         [Q28A[2]]: "",
         [Q28A[3]]: ""
       },
-      correctAnswer: "Volume and pressure at that point of use"
+      correctAnswer: Q28A[0]
     },
     {
       question: "The maximum allowable pressure drop in a natural gas or propane system, with a supply pressure of exactly 12 in w.c. is what? ",
@@ -459,7 +459,7 @@ function compile() {
         [Q29A[2]]: "",
         [Q29A[3]]: ""
       },
-      correctAnswer: "1.0 in w.c"
+      correctAnswer: Q29A[0]
     },
     {
       question: "A piping or tubing system supplied at pressured up to and including 14 in w.c. (3.5 kPa) shall be designed to prevent the loss in pressure from exceeding the values specified in Table 6.1, between which points? ",
@@ -469,7 +469,7 @@ function compile() {
         [Q30A[2]]: "",
         [Q30A[3]]: ""
       },
-      correctAnswer: "The appliance and either the termination of the utility installation or the last-stage regulator"
+      correctAnswer: Q30A[0]
     },
     {
       question: "A new piping system is to be designed to supply natural gas appliances. The minimum size of pipe, tubing and fittings shall be determined in accordance with good engineering practice, such as:",
@@ -479,7 +479,7 @@ function compile() {
         [Q31A[2]]: "",
         [Q31A[3]]: ""
       },
-      correctAnswer: "The use of the tables found in Annex A, or by method of calculation outlined in Annex A"
+      correctAnswer: Q31A[0]
     },
     {
       question: "A piping or tubing system operating at a pressure exceeding 14 in w.c. (3.5 kPa) shall be designed to ensure an adequate supply of gas to each appliance served at the respective designated pressure rating, as well as:",
@@ -489,7 +489,7 @@ function compile() {
         [Q32A[2]]: "",
         [Q32A[3]]: ""
       },
-      correctAnswer: "Ensure that the appliance will not be overpressured under conditions of no flow"
+      correctAnswer: Q32A[0]
     },
     {
       question: "A 2 psig (14 kPa) pressure regulator shall have the piping or tubing system designed to provide adequate gas pressure to it, such that it:",
@@ -499,7 +499,7 @@ function compile() {
         [Q33A[2]]: "",
         [Q33A[3]]: ""
       },
-      correctAnswer: "Matches downstream load requirements"
+      correctAnswer: Q33A[0]
     },
     {
       question: "Plastic piping carrying propane vapour may be sized by the use of the tables found in Annex B, or alternatively: ",
@@ -509,7 +509,7 @@ function compile() {
         [Q34A[2]]: "",
         [Q34A[3]]: ""
       },
-      correctAnswer: "By method of calculation outlined in Annex B"
+      correctAnswer: Q34A[0]
     },
     {
       question: "Annex A is based on natural gas having a relative density of what? ",
@@ -519,7 +519,7 @@ function compile() {
         [Q35A[2]]: "",
         [Q35A[3]]: ""
       },
-      correctAnswer: "0.60"
+      correctAnswer: Q35A[0]
     },
     {
       question: "Annex B is based on propane having a relative density of what? ",
@@ -529,7 +529,7 @@ function compile() {
         [Q36A[2]]: "",
         [Q36A[3]]: ""
       },
-      correctAnswer: "1.52"
+      correctAnswer: Q36A[0]
     },
     {
       question: "Annexes A and B give 'what' as equivalent length of straight pipe in ft (m) to be added to the actual length to obtain the total equivalent length on which pressure loss calculations shall be based. ",
@@ -539,7 +539,7 @@ function compile() {
         [Q37A[2]]: "",
         [Q37A[3]]: ""
       },
-      correctAnswer: "The resistance of bends, fittings and valves"
+      correctAnswer: Q37A[0]
     },
     {
       question: "In a piping system carrying natural gas, Schedule 80 pipe is to be used when threaded piping is less than: ",
@@ -549,7 +549,7 @@ function compile() {
         [Q38A[2]]: "",
         [Q38A[3]]: ""
       },
-      correctAnswer: "NPS 1/2"
+      correctAnswer: Q38A[0]
     },
     {
       question: "In an indoor piping system carrying propane, piping less than NPS 1/2 shall not be used. However, NPS 3/8 piping may be used as a branch line, on the condition that it does not exceed:",
@@ -559,7 +559,7 @@ function compile() {
         [Q39A[2]]: "",
         [Q39A[3]]: ""
       },
-      correctAnswer: "25 ft in length"
+      correctAnswer: Q39A[0]
     },
     {
       question: "In a concealed location, all piping must be equal to or greater than: ",
@@ -569,7 +569,7 @@ function compile() {
         [Q40A[2]]: "",
         [Q40A[3]]: ""
       },
-      correctAnswer: "NPS 1/2"
+      correctAnswer: Q40A[0]
     },
     {
       question: "In a piping or tubing system, the total volume of gas shall:",
@@ -579,7 +579,7 @@ function compile() {
         [Q41A[2]]: "",
         [Q41A[3]]: ""
       },
-      correctAnswer: "Include an allowance for known future extensions"
+      correctAnswer: Q41A[0]
     },
     {
       question: "When calculating the total volume of gas for an appliance, an acceptable alternative to a missing appliance rating plate is: ",
@@ -589,7 +589,7 @@ function compile() {
         [Q42A[2]]: "",
         [Q42A[3]]: ""
       },
-      correctAnswer: "The appliance manufacturer"
+      correctAnswer: Q42A[0]
     },
     {
       question: "A percentage of the total volume of gas may be used, on the condition that diversity of load is established to the satisfaction of the: ",
@@ -599,7 +599,7 @@ function compile() {
         [Q43A[2]]: "",
         [Q43A[3]]: ""
       },
-      correctAnswer: "Authority having jurisdiction"
+      correctAnswer: Q43A[0]
     },
     {
       question: "When determining the gas pressure required for an appliance, which of the following are acceptable sources? ",
@@ -609,7 +609,7 @@ function compile() {
         [Q44A[2]]: "",
         [Q44A[3]]: ""
       },
-      correctAnswer: "The appliance rating plate"
+      correctAnswer: Q44A[0]
     },
     {
       question: "In the event that the gas pressure to an appliance is in excess of the pressure listed on the appliance rating plate, what must be provided in the system, to the appliance? ",
@@ -619,7 +619,7 @@ function compile() {
         [Q45A[2]]: "",
         [Q45A[3]]: ""
       },
-      correctAnswer: "A pressure regulator"
+      correctAnswer: Q45A[0]
     },
     {
       question: "When determining pressure drop in a piping or tubing system, the resistance offered by the length of piping or tubing must also be added to the resistance offered by: ",
@@ -629,7 +629,7 @@ function compile() {
         [Q46A[2]]: "",
         [Q46A[3]]: ""
       },
-      correctAnswer: "Bends, fittings and valves"
+      correctAnswer: Q46A[0]
     },
     {
       question: "When an existing piping or tubing system is of adequate capacity for an additional appliance, the extension must be sized to meet the requirements of which Clause? ",
@@ -639,7 +639,7 @@ function compile() {
         [Q47A[2]]: "",
         [Q47A[3]]: ""
       },
-      correctAnswer: "Clause 6.3"
+      correctAnswer: Q47A[0]
     },
     {
       question: "When an existing piping or tubing system is not of adequate capacity for an additional appliance, the extension must be sized in accordance with the appropriate clause, within how many inches of the point of  the supplier termination or the line pressure regulator? ",
@@ -649,7 +649,7 @@ function compile() {
         [Q48A[2]]: "",
         [Q48A[3]]: ""
       },
-      correctAnswer: "24 inches"
+      correctAnswer: Q48A[0]
     },
     {
       question: "Concealed piping or tubing containing fitting or joints hall not be run where the fittings or joins cannot be: ",
@@ -659,7 +659,7 @@ function compile() {
         [Q49A[2]]: "",
         [Q49A[3]]: ""
       },
-      correctAnswer: "Inspected and tested in accordance with Clause 6.22 in their final position prior to being concealed"
+      correctAnswer: Q49A[0]
     },
     {
       question: "In which of the following places, may piping or tubing not be installed? ",
@@ -669,7 +669,7 @@ function compile() {
         [Q50A[2]]: "",
         [Q50A[3]]: ""
       },
-      correctAnswer: "All answers listed"
+      correctAnswer: Q50A[0]
     },
     {
       question: "Piping or tubing shall not be concealed where a:",
@@ -679,7 +679,7 @@ function compile() {
         [Q51A[2]]: "",
         [Q51A[3]]: ""
       },
-      correctAnswer: "Corrosive chemical is used"
+      correctAnswer: Q51A[0]
     },
     {
       question: "Piping or tubing in solid flooring, such as concrete, shall be laid in channels and suitably covered to permit access to the piping or tubing. What is another acceptable alternative?",
