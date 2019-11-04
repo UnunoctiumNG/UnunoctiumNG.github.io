@@ -349,7 +349,7 @@ function compile() {
         [Q18A[2]]: "",
         [Q18A[3]]: ""
       },
-      correctAnswer: "CSA B137.4 or CSA B137.4.1
+      correctAnswer: "CSA B137.4 or CSA B137.4.1"
     },
     {
       question: "When installing piping for a liquid propane system, which of the following may not be used? ",
