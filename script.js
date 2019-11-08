@@ -1861,7 +1861,7 @@ function compile() {
         answers.push(
           `<label id ="label${questionNumber}">
             <input type="radio" name="question${questionNumber}" value="${String}">
-            <span class="color">${String}</span>
+            ${String}
           </label>`
         )
       }
