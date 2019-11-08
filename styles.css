@@ -11,6 +11,7 @@ body{
 }
 .answers label{
   display: block;
+  color: #rgb(255, 200, 15);
 }
 #submit{
     font-family: sans-serif;
