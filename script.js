@@ -1,4 +1,6 @@
-const Q1A = ["Plastic, steel, or copper", "Iron, copper, or plastic", "Tin, copper, or plastic", "Steel, plastic, or iron"]
+const A1 = "Plastic, steel, or copper"
+
+const Q1A = [A1, "Iron, copper, or plastic", "Tin, copper, or plastic", "Steel, plastic, or iron"]
 const Q2A = ["The piping, tubing or fittings to be used are cleaned, inspected and tested", "2", "3", "1"]
 const Q3A = ["ASTM A53/A53 M or ASTM A106", "ASTM A65/A65 T or ASTM M102", "ULC 34001/CSA 5.12", "B.149.3-15 or CSA 6.5.1"]
 const Q4A = ["ANSI/ASME B16.3 or certified to ANSI LC-4/CSA 6.32", "ANSI/AMSE D11.4", "ALC 452/ANSI 5.1 and ULC 3155J", "CSA 6.24.1 or CSA 7.1.1"]
@@ -174,7 +176,7 @@ function compile() {
     {
       question: "A gas piping or tubing system shall be of which of the following materials?",
       answers: {
-        [Q1A[0]]: "",
+        [`<label id ="ans">${Q1A[0]}</label>`]: "",
         [Q1A[1]]: "",
         [Q1A[2]]: "",
         [Q1A[3]]: ""
