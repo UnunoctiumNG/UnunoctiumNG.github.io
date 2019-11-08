@@ -1,3 +1,4 @@
+
 const Q1A = ["Plastic, steel, or copper", "Iron, copper, or plastic", "Tin, copper, or plastic", "Steel, plastic, or iron"]
 const Q2A = ["The piping, tubing or fittings to be used are cleaned, inspected and tested", "2", "3", "1"]
 const Q3A = ["ASTM A53/A53 M or ASTM A106", "ASTM A65/A65 T or ASTM M102", "ULC 34001/CSA 5.12", "B.149.3-15 or CSA 6.5.1"]
@@ -174,7 +175,7 @@ function compile() {
     {
       question: "A gas piping or tubing system shall be of which of the following materials?",
       answers: {
-        `<label class="ans" ${[Q1A[0]]}></label>`: "",
+        [Q1A[0]]: [`<span class="ans">"${Q1A[0]}"</span>`],
         [Q1A[1]]: "",
         [Q1A[2]]: "",
         [Q1A[3]]: ""
@@ -392,7 +393,7 @@ function compile() {
       correctAnswer: "86 F (30 C)"
     },
     {
-      question: "Plastic piping shall not used wherever ambient temperatures exceed how many degrees? ",
+      question: "Plastic piping shall not used wherever ambient temperatures exceed how many degrees?",
       answers: {
         [Q23A[0]]: "",
         [Q23A[1]]: "",
@@ -1862,6 +1863,7 @@ function compile() {
           `<label id ="label${questionNumber}">
             <input type="radio" name="question${questionNumber}" value="${String}">
             ${String}
+            ${currentQuestion.answers[String]}
           </label>`
         )
       }
@@ -1890,7 +1892,6 @@ function compile() {
     myQuestions.forEach((currentQuestion, questionNumber) => {
       // find selected answer
       const answerContainer = answerContainers[questionNumber];
-      const questionContainer = questionContainers[questionNumber];
       const selector = `input[name=question${questionNumber}]:checked`;
       const userAnswer = (answerContainer.querySelector(selector) || {}).value;
 
@@ -1901,8 +1902,11 @@ function compile() {
 
         // color the answers green
 
-
         questionContainers[questionNumber].style.color = "lightgreen";
+        //setStyleSheet('styles2.css')
+        //ansContainers.style.color = "lightgreen";
+        //sheet.addRule(".ans", "color: red !important;", 1);
+        //document.styleSheets[0].insertRule(".ans", "color: red !important;", 1);
         //sheet.insertRule('input:checked {height: 50px; width: 50px;}', sheet.cssRules.length);
       } else {
         // if answer is wrong or blank
