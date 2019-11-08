@@ -176,7 +176,7 @@ function compile() {
     {
       question: "A gas piping or tubing system shall be of which of the following materials?",
       answers: {
-        [`<label id ="ans">${Q1A[0]}</label>`]: "",
+        [`<label class="ans">${Q1A[0]}</label>`]: "",
         [Q1A[1]]: "",
         [Q1A[2]]: "",
         [Q1A[3]]: ""
