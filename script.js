@@ -1882,7 +1882,6 @@ function compile() {
     // gather answer containers from our quiz
     const answerContainers = quizContainer.querySelectorAll(".answers");
     const questionContainers = quizContainer.querySelectorAll(".question");
-    const colorContainers = quizContainer.querySelectorAll(".color");
 
     // keep track of user's answers
     let numCorrect = 0;
@@ -1890,7 +1889,6 @@ function compile() {
     // for each question...
     myQuestions.forEach((currentQuestion, questionNumber) => {
       // find selected answer
-      const colorContainer = colorContainers[questionNumber];
       const answerContainer = answerContainers[questionNumber];
       const questionContainer = questionContainers[questionNumber];
       const selector = `input[name=question${questionNumber}]:checked`;
@@ -1903,7 +1901,6 @@ function compile() {
 
         // color the answers green
 
-        colorContainers[questionNumber].style.color = "blue";
         questionContainers[questionNumber].style.color = "lightgreen";
         //sheet.insertRule('input:checked {height: 50px; width: 50px;}', sheet.cssRules.length);
       } else {
