@@ -611,10 +611,10 @@ const Q102A = [
 "air"
 ]
 const Q103A = [
-"-2158°c",
-"25°f",
-"<span class='ans'>-260°f</span>",
-"285°f"
+"-2158 C",
+"25 F",
+"<span class='ans'>-260 F</span>",
+"285 F"
 ]
 const Q104A = [
 "<span class='ans'>Yes</span>",
@@ -2008,7 +2008,7 @@ function compile() {
         [Q103A[2]]: "",
         [Q103A[3]]: ""
       },
-      correctAnswer: "<span class='ans'>-260°f</span>",
+      correctAnswer: "<span class='ans'>-260 F</span>",
     },
     {
       question: "Can a G3 certificate holder, under direct supervision, install gas piping to a 450 cfh boiler?",
@@ -2676,7 +2676,7 @@ function compile() {
     });
 
     // show number of correct answers out of total
-    resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
+    resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length} = ${numCorrect*100/myQuestions.length}%`;
   }
 
   const quizContainer = document.getElementById("quiz");
