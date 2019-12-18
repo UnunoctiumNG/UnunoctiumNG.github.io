@@ -676,8 +676,300 @@ const Q113A = [
 "25 ppm of CO",
 "<span class='ans'>35 ppm of CO</span>"
 ]
-
-
+const Q114A = [
+"43 sq ft"
+"100 sq ft"
+"2400 sq ft"
+"<span class='ans'>300 sq ft</span>"
+]
+const Q115A = [
+"Gas well"
+"<span class='ans'>Compressor station</span>"
+"City gate"
+"Pipeline distribution gates"
+]
+const Q116A = [
+"Gas distributor"
+"TSSA"
+"The B149. -05 code book"
+"<span class='ans'>The installer</span>"
+]
+const Q117A = [
+"An updraft condition is present"
+"There is excessive draft in the venting"
+"<span class='ans'>The venting system of the appliance is restricted or block</span>"
+"Low gas pressure to the appliance pilot valve"
+]
+const Q118A = [
+"Short out gas valve"
+"<span class='ans'>Short out heat anticipator</span>"
+"Short cycle main burner"
+"None of these options"
+]
+const Q119A = [
+10 ft
+"10.5 ft"
+"12.5 ft"
+"<span class='ans'>12 ft</span>"
+]
+const Q120A = [
+"30 inches"
+"<span class='ans'>36 inches</span>"
+"38 inches"
+"24 inches"
+]
+const Q121A = [
+"600 to 1"
+"<span class='ans'>270 to 1</span>"
+"10 to 1"
+"1 to 600"
+]
+const Q122A = [
+"Ontario Code Regulation Permits"
+"T.S.A. Certification Gas Codes"
+"C.S.A. Regulation and Certification"
+"<span class='ans'>Technical Standard Safety Authority</span>"
+]
+const Q123A = [
+"<span class='ans'>1.9% to 8.5%</span>"
+"2.5% to 5.5%"
+"12% to 74%"
+"23.5% to 10%"
+]
+const Q124A = [
+"carbon dioxide, nitrogen, soot, heat"
+"heat, water, hydrogen, oxygen"
+"water, carbon dioxide, oxygen, dioxide"
+"<span class='ans'>carbon dioxide, water, nitrogen</span>"
+]
+const Q125A = [
+"fuel, carbon dioxide, air"
+"<span class='ans'>heat, oxygen, fuel</span>"
+"fuel, air, hydrogen"
+"Ignition, propane, nitrogen"
+]
+const Q126A = [
+"Primary air, mixing air, free air"
+"<span class='ans'>Combustion air, excess air, dilution air</span>"
+"Secondary air, primary air, natural air"
+"Venting air, oxygen, excess air"
+]
+const Q127A = [
+"152"
+"0.6"
+"<span class='ans'>1.52</span>"
+"0.06"
+]
+const Q128A = [
+"20% nitrogen 8% oxygen"
+"<span class='ans'>80% nitrogen 20% oxygen</span>"
+"80% oxygen 20% nitrogen"
+"80% hydrocarbon 20% excess air"
+]
+const Q129A = [
+"Carbon dioxide, water, soot, heat"
+"<span class='ans'>Carbon monoxide,water, hydrogen, nitrogen</span>"
+"Soot, aldehydes, carbon monoxide, heat"
+"aldehydes, carbon monoxide, soot"
+]
+const Q130A = [
+"Excess air"
+"<span class='ans'>Primary air</span>"
+"Combustion air"
+"Dilution air"
+]
+const Q131A = [
+"Venting air"
+"Post secondary air"
+"<span class='ans'>Secondary air</span>"
+"Outside air"
+]
+const Q132A = [
+"<span class='ans'>Air to cool hot flue gases</span>"
+"Air to needed for excess air"
+"Air to start combustion"
+"Air to ensure flame"
+]
+const Q133A = [
+"two"
+"three"
+"ABC"
+"<span class='ans'>four</span>"
+]
+const Q134A = [
+"<span class='ans'>This decision is up to the individual province to decide</span>"
+"6"
+"12"
+"4"
+]
+const Q135A = [
+"36 inches"
+"24 inches"
+"<span class='ans'>18 inches</span>"
+"12 inches"
+]
+const Q136A = [
+"to be listened to"
+"to be treated with respect"
+"to have their problem taken seriously"
+"<span class='ans'>all of the these options</span>"
+]
+const Q137A = [
+"indirect vent"
+"B vent"
+"<span class='ans'>direct vent type</span>"
+"none of these options"
+]
+const Q138A = [
+"blow dryer and curling irons"
+"television and stereo equipment"
+"microwave"
+"<span class='ans'>refrigerators or freezers</span>"
+]
+const Q139A = [
+"95 percent"
+"<span class='ans'>80 percent</span>"
+"75 percent"
+".80 percent"
+]
+const Q140A = [
+"22.30"
+"20.50"
+"<span class='ans'>16.6</span>"
+"18.46"
+]
+const Q141A = [
+"110.00 volts"
+"115.25 volts"
+"122.60 volts"
+"<span class='ans'>125.35 volts</span>"
+]
+const Q142A = [
+"1.42"
+"<span class='ans'>4.2</span>"
+"41.51"
+"15.14"
+]
+const Q143A = [
+"<span class='ans'>10 to 1</span>"
+"0.5 to 1"
+"1 to 25"
+"21 to 1"
+]
+const Q144A = [
+"250 Psig"
+"275 Psig"
+"350 Psig"
+"<span class='ans'>375 Psig</span>"
+]
+const Q145A = [
+"365 psig"
+"<span class='ans'>275 psig</span>"
+"370 psig"
+"375 psig"
+]
+const Q146A = [
+".10"
+"<span class='ans'>0.5</span>"
+"0.05"
+"0.10"
+]
+const Q147A = [
+"CCH4"
+"C4H"
+"CH3"
+"<span class='ans'>CH4</span>"
+]
+const Q148A = [
+"0-30v"
+"<span class='ans'>0-250v</span>"
+"0-600v"
+"0-1000v"
+]
+const Q149A = [
+"Black"
+"Gold"
+"<span class='ans'>Silver</span>"
+"Green"
+]
+const Q150A = [
+"ABD"
+"BCD"
+"CBA"
+"<span class='ans'>ABC</span>"
+]
+const Q151A = [
+"340"
+"<span class='ans'>750</span>"
+"850"
+"1000"
+]
+const Q152A = [
+"Amp meter"
+"<span class='ans'>Ohm meter</span>"
+"Volt meter"
+"Potentiometer"
+]
+const Q153A = [
+"<span class='ans'>Electro-magnetic current</span>"
+"D.C. rectifier"
+"Transformer"
+"Transducer"
+]
+const Q154A = [
+"<span class='ans'>Hydrostatically</span>"
+"After being covered"
+"With air pressure and a soap solution"
+"With air pressure and a fluorescent dye"
+]
+const Q155A = [
+"Black"
+"<span class='ans'>Gold</span>"
+"Silver"
+"Green"
+]
+const Q156A = [
+"Roll out switch"
+"<span class='ans'>Safety control</span>"
+"Fan control"
+"Different switch"
+]
+const Q157A = [
+"Step down transformers"
+"<span class='ans'>Step up transformers</span>"
+"Auto transformer"
+"Neutral transformers"
+]
+const Q158A = [
+"0.34"
+"<span class='ans'>3.41</span>"
+"3,416"
+"34,120"
+]
+const Q159A = [
+"In the duct near the furnace room"
+"In the basement near the furnace"
+"<span class='ans'>In the living room or hallway</span>"
+"In the front entrance"
+]
+const Q160A = [
+"<span class='ans'>A measure of the quantity of electron flow.</span>"
+"A measure of the amount of electrical pressure."
+"A measure of how much a circuit will limit current flow."
+"A measure of the amount of power used by a circuit."
+]
+const Q161A = [
+"The quantity of electrons flowing"
+"The amount of electrical pressure"
+"How much a circuit will limit current flow"
+"<span class='ans'>The amount of power used by a circuit</span>"
+]
+const Q162A = [
+"Power decrease"
+"<span class='ans'>Voltage increase</span>"
+"Resistance decrease"
+"Amperage stays consistent"
+]
 
 
 
@@ -1817,6 +2109,496 @@ function compile() {
         [Q113A[3]]: ""
       },
       correctAnswer: "<span class='ans'>35 ppm of CO</span>"
+    },
+    {
+      question: "What would be the square footage of 20' long x 15' wide x 8' high of a building envelope?",
+      answers: {
+        [Q114A[0]]: "",
+        [Q114A[1]]: "",
+        [Q114A[2]]: "",
+        [Q114A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>300 sq ft</span>"
+    },
+    {
+      question: "Mercaptan is usually added to natural gas, where?",
+      answers: {
+        [Q115A[0]]: "",
+        [Q115A[1]]: "",
+        [Q115A[2]]: "",
+        [Q115A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>Compressor station</span>"
+    },
+    {
+      question: "Who is responsible for the proper installation of the gas piping to the appliance?",
+      answers: {
+        [Q116A[0]]: "",
+        [Q116A[1]]: "",
+        [Q116A[2]]: "",
+        [Q116A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>The installer</span>"
+    },
+    {
+      question: "Spillage of flue gases at the appliance draft diverter would indicate that:",
+      answers: {
+        [Q117A[0]]: "",
+        [Q117A[1]]: "",
+        [Q117A[2]]: "",
+        [Q117A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>The venting system of the appliance is restricted or block</span>"
+    },
+    {
+      question: "If the heat anticipator of a thermostat is set to low what probable condition would exist when the heating unit is operating? ",
+      answers: {
+        [Q118A[0]]: "",
+        [Q118A[1]]: "",
+        [Q118A[2]]: "",
+        [Q118A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>Short out heat anticipator</span>"
+    },
+    {
+      question: "How far should be the base of a ladder is from the building if the ladder is 36 feet high?",
+      answers: {
+        [Q119A[0]]: "",
+        [Q119A[1]]: "",
+        [Q119A[2]]: "",
+        [Q119A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>12 ft</span>"
+    },
+    {
+      question: "A ladder must extend above roof landing by?",
+      answers: {
+        [Q120A[0]]: "",
+        [Q120A[1]]: "",
+        [Q120A[2]]: "",
+        [Q120A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>36 inches</span>"
+    },
+    {
+      question: "What is the expansion rate of propane? ",
+      answers: {
+        [Q121A[0]]: "",
+        [Q121A[1]]: "",
+        [Q121A[2]]: "",
+        [Q121A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>270 to 1</span>"
+    },
+    {
+      question: "Who issues gas technician certificates in Ontario? ",
+      answers: {
+        [Q122A[0]]: "",
+        [Q122A[1]]: "",
+        [Q122A[2]]: "",
+        [Q122A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>Technical Standard Safety Authority</span>"
+    },
+    {
+      question: "What is the flammability range of Butane? ",
+      answers: {
+        [Q123A[0]]: "",
+        [Q123A[1]]: "",
+        [Q123A[2]]: "",
+        [Q123A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>1.9% to 8.5%</span>"
+    },
+    {
+      question: "What are the products of complete combustion?",
+      answers: {
+        [Q124A[0]]: "",
+        [Q124A[1]]: "",
+        [Q124A[2]]: "",
+        [Q124A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>carbon dioxide, water, nitrogen</span>"
+    },
+    {
+      question: "What is needed to start combustion? ",
+      answers: {
+        [Q125A[0]]: "",
+        [Q125A[1]]: "",
+        [Q125A[2]]: "",
+        [Q125A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>heat, oxygen, fuel</span>"
+    },
+    {
+      question: "What is the air needed to operate a gas appliance safely? ",
+      answers: {
+        [Q126A[0]]: "",
+        [Q126A[1]]: "",
+        [Q126A[2]]: "",
+        [Q126A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>Combustion air, excess air, dilution air</span>"
+    },
+    {
+      question: "What is the relative density of propane gas? ",
+      answers: {
+        [Q127A[0]]: "",
+        [Q127A[1]]: "",
+        [Q127A[2]]: "",
+        [Q127A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>1.52</span>"
+    },
+    {
+      question: "What is air comprised of? ",
+      answers: {
+        [Q128A[0]]: "",
+        [Q128A[1]]: "",
+        [Q128A[2]]: "",
+        [Q128A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>80% nitrogen 20% oxygen</span>"
+    },
+    {
+      question: "What are the products of incomplete combustion? ",
+      answers: {
+        [Q129A[0]]: "",
+        [Q129A[1]]: "",
+        [Q129A[2]]: "",
+        [Q129A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>Carbon monoxide, water, aldehydes</span>"
+    },
+    {
+      question: "What type of air is premixed with gas prior to ignition? ",
+      answers: {
+        [Q130A[0]]: "",
+        [Q130A[1]]: "",
+        [Q130A[2]]: "",
+        [Q130A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>Primary air</span>"
+    },
+    {
+      question: "What type of air surrounds the flame for combustion? ",
+      answers: {
+        [Q131A[0]]: "",
+        [Q131A[1]]: "",
+        [Q131A[2]]: "",
+        [Q131A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>Secondary air</span>"
+    },
+    {
+      question: "Dilution air is:",
+      answers: {
+        [Q132A[0]]: "",
+        [Q132A[1]]: "",
+        [Q132A[2]]: "",
+        [Q132A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>Air to cool hot flue gases</span>"
+    },
+    {
+      question: "How many symbols or classes of fire extinguishers exist? ",
+      answers: {
+        [Q133A[0]]: "",
+        [Q133A[1]]: "",
+        [Q133A[2]]: "",
+        [Q133A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>four</span>"
+    },
+    {
+      question: "How many parts are each province's occupational health and safety act divided into? ",
+      answers: {
+        [Q134A[0]]: "",
+        [Q134A[1]]: "",
+        [Q134A[2]]: "",
+        [Q134A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>This decision is up to the individual province to decide</span>"
+    },
+    {
+      question: "What is the minimum clearance between the front, back and sides of a commercial clothes dryer and a combustible material?",
+      answers: {
+        [Q135A[0]]: "",
+        [Q135A[1]]: "",
+        [Q135A[2]]: "",
+        [Q135A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>18 inches</span>"
+    },
+    {
+      question: "When a customer is upset they typically want: ",
+      answers: {
+        [Q136A[0]]: "",
+        [Q136A[1]]: "",
+        [Q136A[2]]: "",
+        [Q136A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>all of the these options</span>"
+    },
+    {
+      question: "What type of room heater is permitted to be installed in the bathroom? ",
+      answers: {
+        [Q137A[0]]: "",
+        [Q137A[1]]: "",
+        [Q137A[2]]: "",
+        [Q137A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>direct vent type</span>"
+    },
+    {
+      question: "What is the best example of an appliance that should never be unplugged in order to obtain electrical power? ",
+      answers: {
+        [Q138A[0]]: "",
+        [Q138A[1]]: "",
+        [Q138A[2]]: "",
+        [Q138A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>refrigerators or freezers</span>"
+    },
+    {
+      question: "What is the maximum filling density of propane containers? ",
+      answers: {
+        [Q139A[0]]: "",
+        [Q139A[1]]: "",
+        [Q139A[2]]: "",
+        [Q139A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>80 percent</span>"
+    },
+    {
+      question: "At 100 volts, what would be the amperage in a parallel circuit with a 10 ohm and a 12 ohm resistance?",
+      answers: {
+        [Q140A[0]]: "",
+        [Q140A[1]]: "",
+        [Q140A[2]]: "",
+        [Q140A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>16.6</span>"
+    },
+    {
+      question: "What would be the voltage in a parallel circuit with a 10 ohm and a 12 ohm resistance, whose current is 23 amps?",
+      answers: {
+        [Q141A[0]]: "",
+        [Q141A[1]]: "",
+        [Q141A[2]]: "",
+        [Q141A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>125.35 volts</span>"
+    },
+    {
+      question: "What is the weight of one gallon of propane? ",
+      answers: {
+        [Q142A[0]]: "",
+        [Q142A[1]]: "",
+        [Q142A[2]]: "",
+        [Q142A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>4.2</span>"
+    },
+    {
+      question: "What is the air to gas ratio for propane? ",
+      answers: {
+        [Q143A[0]]: "",
+        [Q143A[1]]: "",
+        [Q143A[2]]: "",
+        [Q143A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>25 to 1</span>"
+    },
+    {
+      question: "What is the relief pressure of a propane tank? ",
+      answers: {
+        [Q144A[0]]: "",
+        [Q144A[1]]: "",
+        [Q144A[2]]: "",
+        [Q144A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>375 Psig</span>"
+    },
+    {
+      question: "What is the relief pressure set at on a propane cylinder? ",
+      answers: {
+        [Q145A[0]]: "",
+        [Q145A[1]]: "",
+        [Q145A[2]]: "",
+        [Q145A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>275 psig</span>"
+    },
+    {
+      question: "If you had 60 watts light bulb at 120 volts what would be the amperage? ",
+      answers: {
+        [Q146A[0]]: "",
+        [Q146A[1]]: "",
+        [Q146A[2]]: "",
+        [Q146A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>0.5</span>"
+    },
+    {
+      question: "What is the chemical composition of natural gas? ",
+      answers: {
+        [Q147A[0]]: "",
+        [Q147A[1]]: "",
+        [Q147A[2]]: "",
+        [Q147A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>CH4</span>"
+    },
+    {
+      question: "When it has been determined that the voltage to a unit is approximately 115 Volts, which range should an analog volt meter be set at?",
+      answers: {
+        [Q148A[0]]: "",
+        [Q148A[1]]: "",
+        [Q148A[2]]: "",
+        [Q148A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>0-250v</span>"
+    },
+    {
+      question: "On a 120 volt receptacle, the neutral connection terminals are: ",
+      answers: {
+        [Q149A[0]]: "",
+        [Q149A[1]]: "",
+        [Q149A[2]]: "",
+        [Q149A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>Silver</span>"
+    },
+    {
+      question: "What is the most common fire extinguishers used in the work place? ",
+      answers: {
+        [Q150A[0]]: "",
+        [Q150A[1]]: "",
+        [Q150A[2]]: "",
+        [Q150A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>ABC</span>"
+    },
+    {
+      question: "One horsepower equals_______ watts. ",
+      answers: {
+        [Q151A[0]]: "",
+        [Q151A[1]]: "",
+        [Q151A[2]]: "",
+        [Q151A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>750</span>"
+    },
+    {
+      question: "Which meter is used to check for continuity? ",
+      answers: {
+        [Q152A[0]]: "",
+        [Q152A[1]]: "",
+        [Q152A[2]]: "",
+        [Q152A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>Ohm meter</span>"
+    },
+    {
+      question: "A solenoid valve is activated by a/an: ",
+      answers: {
+        [Q153A[0]]: "",
+        [Q153A[1]]: "",
+        [Q153A[2]]: "",
+        [Q153A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>Electro-magnetic current</span>"
+    },
+    {
+      question: "Underground piping shall be tested for leaks: ",
+      answers: {
+        [Q154A[0]]: "",
+        [Q154A[1]]: "",
+        [Q154A[2]]: "",
+        [Q154A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>Hydrostatically</span>"
+    },
+    {
+      question: "On a 120 volt receptacle, the line connection terminals are:",
+      answers: {
+        [Q155A[0]]: "",
+        [Q155A[1]]: "",
+        [Q155A[2]]: "",
+        [Q155A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>Gold</span>"
+    },
+    {
+      question: "Which of the following best describes a device used to prevent an unsafe? Condition of temperature, pressure, or liquid level? ",
+      answers: {
+        [Q156A[0]]: "",
+        [Q156A[1]]: "",
+        [Q156A[2]]: "",
+        [Q156A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>Safety control</span>"
+    },
+    {
+      question: "Transformers which produce a secondary voltage which is higher than the Primary are said to be: ",
+      answers: {
+        [Q157A[0]]: "",
+        [Q157A[1]]: "",
+        [Q157A[2]]: "",
+        [Q157A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>Step up transformers</span>"
+    },
+    {
+      question: "One watt equals ______ Btuh.",
+      answers: {
+        [Q158A[0]]: "",
+        [Q158A[1]]: "",
+        [Q158A[2]]: "",
+        [Q158A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>3.41</span>"
+    },
+    {
+      question: "Which of the following is the best location for residential central heating thermostat? ",
+      answers: {
+        [Q159A[0]]: "",
+        [Q159A[1]]: "",
+        [Q159A[2]]: "",
+        [Q159A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>In the living room or hallway</span>"
+    },
+    {
+      question: "What is current? ",
+      answers: {
+        [Q160A[0]]: "",
+        [Q160A[1]]: "",
+        [Q160A[2]]: "",
+        [Q160A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>A measure of the quantity of electron flow.</span>"
+    },
+    {
+      question: "A watt is a unit of measure of:",
+      answers: {
+        [Q161A[0]]: "",
+        [Q161A[1]]: "",
+        [Q161A[2]]: "",
+        [Q161A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>The amount of power used by a circuit</span>"
+    },
+    {
+      question: "If resistance is constant in a resistive circuit when current increases what happens? ",
+      answers: {
+        [Q162A[0]]: "",
+        [Q162A[1]]: "",
+        [Q162A[2]]: "",
+        [Q162A[3]]: ""
+      },
+      correctAnswer: "<span class='ans'>Voltage increase</span>"
     }
   ];
   var UserNumOfQuestions = document.getElementById("NumQuestionsInput").value;
@@ -2044,4 +2826,30 @@ function massShuffle() {
   shuffle(Q111A);
   shuffle(Q112A);
   shuffle(Q113A);
+  shuffle(Q114A);
+  shuffle(Q115A);
+  shuffle(Q116A);
+  shuffle(Q117A);
+  shuffle(Q118A);
+  shuffle(Q119A);
+  shuffle(Q121A);
+  shuffle(Q122A);
+  shuffle(Q123A);
+  shuffle(Q124A);
+  shuffle(Q125A);
+  shuffle(Q126A);
+  shuffle(Q127A);
+  shuffle(Q128A);
+  shuffle(Q129A);
+  shuffle(Q130A);
+  shuffle(Q131A);
+  shuffle(Q132A);
+  shuffle(Q133A);
+  shuffle(Q134A);
+  shuffle(Q135A);
+  shuffle(Q136A);
+  shuffle(Q137A);
+  shuffle(Q138A);
+  shuffle(Q139A);
+  shuffle(Q140A);
 }
