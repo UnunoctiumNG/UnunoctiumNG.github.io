@@ -335,10 +335,10 @@ const Q56A = [
 "4500 F"
 ]
 const Q57A = [
-"<span class='ans'>10 to 1</span>",
+"<span class='ans'>25 to 1</span>",
 "0.5 to 1",
-"1 to 25",
-"21 to 1"
+"10 to 25",
+"1 to 1"
 ]
 const Q58A = [
 "600 to 1",
@@ -443,7 +443,7 @@ const Q74A = [
 "the incorrect RPM can cause a whistle sound that can damage hearing"
 ]
 const Q75A = [
-"repeat word like 'I understand' and 'really?' so show you are listening",
+"repeat word like 'I understand' and 'really?' to show you are listening",
 "<span class='ans'>restate the explanation to the customer to ensure it has been properly understood</span>",
 "tell the customer that it will not be a problem as you have seen much worse",
 "ask the customer about sports to get their mind off of their problems"
@@ -677,297 +677,297 @@ const Q113A = [
 "<span class='ans'>35 ppm of CO</span>"
 ]
 const Q114A = [
-"43 sq ft"
-"100 sq ft"
-"2400 sq ft"
+"43 sq ft",
+"100 sq ft",
+"2400 sq ft",
 "<span class='ans'>300 sq ft</span>"
 ]
 const Q115A = [
-"Gas well"
-"<span class='ans'>Compressor station</span>"
-"City gate"
+"Gas well",
+"<span class='ans'>Compressor station</span>",
+"City gate",
 "Pipeline distribution gates"
 ]
 const Q116A = [
-"Gas distributor"
-"TSSA"
-"The B149. -05 code book"
+"Gas distributor",
+"TSSA",
+"The B149. -05 code book",
 "<span class='ans'>The installer</span>"
 ]
 const Q117A = [
-"An updraft condition is present"
-"There is excessive draft in the venting"
-"<span class='ans'>The venting system of the appliance is restricted or block</span>"
+"An updraft condition is present",
+"There is excessive draft in the venting",
+"<span class='ans'>The venting system of the appliance is restricted or block</span>",
 "Low gas pressure to the appliance pilot valve"
 ]
 const Q118A = [
-"Short out gas valve"
-"<span class='ans'>Short out heat anticipator</span>"
-"Short cycle main burner"
+"Short out gas valve",
+"<span class='ans'>Short out heat anticipator</span>",
+"Short cycle main burner",
 "None of these options"
 ]
 const Q119A = [
-10 ft
-"10.5 ft"
-"12.5 ft"
+"10 ft",
+"10.5 ft",
+"12.5 ft",
 "<span class='ans'>12 ft</span>"
 ]
 const Q120A = [
-"30 inches"
-"<span class='ans'>36 inches</span>"
-"38 inches"
+"30 inches",
+"<span class='ans'>36 inches</span>",
+"38 inches",
 "24 inches"
 ]
 const Q121A = [
-"600 to 1"
-"<span class='ans'>270 to 1</span>"
-"10 to 1"
+"600 to 1",
+"<span class='ans'>270 to 1</span>",
+"10 to 1",
 "1 to 600"
 ]
 const Q122A = [
-"Ontario Code Regulation Permits"
-"T.S.A. Certification Gas Codes"
-"C.S.A. Regulation and Certification"
-"<span class='ans'>Technical Standard Safety Authority</span>"
+"Ontario Code Regulation Permits",
+"T.S.A. Certification Gas Codes",
+"C.S.A. Regulation and Certification",
+"<span class='ans'>Technical Standards and Safety Authority</span>"
 ]
 const Q123A = [
-"<span class='ans'>1.9% to 8.5%</span>"
-"2.5% to 5.5%"
-"12% to 74%"
+"<span class='ans'>1.9% to 8.5%</span>",
+"2.5% to 5.5%",
+"12% to 74%",
 "23.5% to 10%"
 ]
 const Q124A = [
-"carbon dioxide, nitrogen, soot, heat"
-"heat, water, hydrogen, oxygen"
-"water, carbon dioxide, oxygen, dioxide"
+"carbon dioxide, nitrogen, soot, heat",
+"heat, water, hydrogen, oxygen",
+"water, carbon dioxide, oxygen, dioxide",
 "<span class='ans'>carbon dioxide, water, nitrogen</span>"
 ]
 const Q125A = [
-"fuel, carbon dioxide, air"
-"<span class='ans'>heat, oxygen, fuel</span>"
-"fuel, air, hydrogen"
+"fuel, carbon dioxide, air",
+"<span class='ans'>heat, oxygen, fuel</span>",
+"fuel, air, hydrogen",
 "Ignition, propane, nitrogen"
 ]
 const Q126A = [
-"Primary air, mixing air, free air"
-"<span class='ans'>Combustion air, excess air, dilution air</span>"
-"Secondary air, primary air, natural air"
+"Primary air, mixing air, free air",
+"<span class='ans'>Combustion air, excess air, dilution air</span>",
+"Secondary air, primary air, natural air",
 "Venting air, oxygen, excess air"
 ]
 const Q127A = [
-"152"
-"0.6"
-"<span class='ans'>1.52</span>"
+"152",
+"0.6",
+"<span class='ans'>1.52</span>",
 "0.06"
 ]
 const Q128A = [
-"20% nitrogen 8% oxygen"
-"<span class='ans'>80% nitrogen 20% oxygen</span>"
-"80% oxygen 20% nitrogen"
+"20% nitrogen 8% oxygen",
+"<span class='ans'>80% nitrogen 20% oxygen</span>",
+"80% oxygen 20% nitrogen",
 "80% hydrocarbon 20% excess air"
 ]
 const Q129A = [
-"Carbon dioxide, water, soot, heat"
-"<span class='ans'>Carbon monoxide,water, hydrogen, nitrogen</span>"
-"Soot, aldehydes, carbon monoxide, heat"
-"aldehydes, carbon monoxide, soot"
+"Carbon dioxide, water, soot, heat",
+"<span class='ans'>Carbon monoxide, water, aldehydes</span>",
+"Soot, hydrogen peroxide, carbon monoxide, heat",
+"aldehydes, carbon trioxide, soot"
 ]
 const Q130A = [
-"Excess air"
-"<span class='ans'>Primary air</span>"
-"Combustion air"
+"Excess air",
+"<span class='ans'>Primary air</span>",
+"Combustion air",
 "Dilution air"
 ]
 const Q131A = [
-"Venting air"
-"Post secondary air"
-"<span class='ans'>Secondary air</span>"
+"Venting air",
+"Post secondary air",
+"<span class='ans'>Secondary air</span>",
 "Outside air"
 ]
 const Q132A = [
-"<span class='ans'>Air to cool hot flue gases</span>"
-"Air to needed for excess air"
-"Air to start combustion"
+"<span class='ans'>Air to cool hot flue gases</span>",
+"Air to needed for excess air",
+"Air to start combustion",
 "Air to ensure flame"
 ]
 const Q133A = [
-"two"
-"three"
-"ABC"
+"two",
+"three",
+"ABC",
 "<span class='ans'>four</span>"
 ]
 const Q134A = [
-"<span class='ans'>This decision is up to the individual province to decide</span>"
-"6"
-"12"
+"<span class='ans'>This decision is up to the individual province to decide</span>",
+"6",
+"12",
 "4"
 ]
 const Q135A = [
-"36 inches"
-"24 inches"
-"<span class='ans'>18 inches</span>"
+"36 inches",
+"24 inches",
+"<span class='ans'>18 inches</span>",
 "12 inches"
 ]
 const Q136A = [
-"to be listened to"
-"to be treated with respect"
-"to have their problem taken seriously"
+"to be listened to",
+"to be treated with respect",
+"to have their problem taken seriously",
 "<span class='ans'>all of the these options</span>"
 ]
 const Q137A = [
-"indirect vent"
-"B vent"
-"<span class='ans'>direct vent type</span>"
+"indirect vent",
+"B vent",
+"<span class='ans'>direct vent type</span>",
 "none of these options"
 ]
 const Q138A = [
-"blow dryer and curling irons"
-"television and stereo equipment"
-"microwave"
+"blow dryer and curling irons",
+"television and stereo equipment",
+"microwave",
 "<span class='ans'>refrigerators or freezers</span>"
 ]
 const Q139A = [
-"95 percent"
-"<span class='ans'>80 percent</span>"
-"75 percent"
+"95 percent",
+"<span class='ans'>80 percent</span>",
+"75 percent",
 ".80 percent"
 ]
 const Q140A = [
-"22.30"
-"20.50"
-"<span class='ans'>16.6</span>"
+"22.30",
+"20.50",
+"<span class='ans'>16.6</span>",
 "18.46"
 ]
 const Q141A = [
-"110.00 volts"
-"115.25 volts"
-"122.60 volts"
+"110.00 volts",
+"115.25 volts",
+"122.60 volts",
 "<span class='ans'>125.35 volts</span>"
 ]
 const Q142A = [
-"1.42"
-"<span class='ans'>4.2</span>"
-"41.51"
+"1.42",
+"<span class='ans'>4.2</span>",
+"41.51",
 "15.14"
 ]
 const Q143A = [
-"<span class='ans'>10 to 1</span>"
-"0.5 to 1"
-"1 to 25"
-"21 to 1"
+"<span class='ans'>25 to 1</span>",
+"0.5 to 1",
+"1 to 25",
+"20 to 1"
 ]
 const Q144A = [
-"250 Psig"
-"275 Psig"
-"350 Psig"
+"250 Psig",
+"275 Psig",
+"350 Psig",
 "<span class='ans'>375 Psig</span>"
 ]
 const Q145A = [
-"365 psig"
-"<span class='ans'>275 psig</span>"
-"370 psig"
+"365 psig",
+"<span class='ans'>275 psig</span>",
+"370 psig",
 "375 psig"
 ]
 const Q146A = [
-".10"
-"<span class='ans'>0.5</span>"
-"0.05"
+".10",
+"<span class='ans'>0.5</span>",
+"0.05",
 "0.10"
 ]
 const Q147A = [
-"CCH4"
-"C4H"
-"CH3"
+"CCH4",
+"C4H",
+"CH3",
 "<span class='ans'>CH4</span>"
 ]
 const Q148A = [
-"0-30v"
-"<span class='ans'>0-250v</span>"
-"0-600v"
+"0-30v",
+"<span class='ans'>0-250v</span>",
+"0-600v",
 "0-1000v"
 ]
 const Q149A = [
-"Black"
-"Gold"
-"<span class='ans'>Silver</span>"
+"Black",
+"Gold",
+"<span class='ans'>Silver</span>",
 "Green"
 ]
 const Q150A = [
-"ABD"
-"BCD"
-"CBA"
+"ABD",
+"BCD",
+"CBA",
 "<span class='ans'>ABC</span>"
 ]
 const Q151A = [
-"340"
-"<span class='ans'>750</span>"
-"850"
+"340",
+"<span class='ans'>750</span>",
+"850",
 "1000"
 ]
 const Q152A = [
-"Amp meter"
-"<span class='ans'>Ohm meter</span>"
-"Volt meter"
+"Amp meter",
+"<span class='ans'>Ohm meter</span>",
+"Volt meter",
 "Potentiometer"
 ]
 const Q153A = [
-"<span class='ans'>Electro-magnetic current</span>"
-"D.C. rectifier"
-"Transformer"
+"<span class='ans'>Electro-magnetic current</span>",
+"D.C. rectifier",
+"Transformer",
 "Transducer"
 ]
 const Q154A = [
-"<span class='ans'>Hydrostatically</span>"
-"After being covered"
-"With air pressure and a soap solution"
+"<span class='ans'>Hydrostatically</span>",
+"After being covered",
+"With air pressure and a soap solution",
 "With air pressure and a fluorescent dye"
 ]
 const Q155A = [
-"Black"
-"<span class='ans'>Gold</span>"
-"Silver"
+"Black",
+"<span class='ans'>Gold</span>",
+"Silver",
 "Green"
 ]
 const Q156A = [
-"Roll out switch"
-"<span class='ans'>Safety control</span>"
-"Fan control"
+"Roll out switch",
+"<span class='ans'>Safety control</span>",
+"Fan control",
 "Different switch"
 ]
 const Q157A = [
-"Step down transformers"
-"<span class='ans'>Step up transformers</span>"
-"Auto transformer"
+"Step down transformers",
+"<span class='ans'>Step up transformers</span>",
+"Auto transformer",
 "Neutral transformers"
 ]
 const Q158A = [
-"0.34"
-"<span class='ans'>3.41</span>"
-"3,416"
+"0.34",
+"<span class='ans'>3.41</span>",
+"3,416",
 "34,120"
 ]
 const Q159A = [
-"In the duct near the furnace room"
-"In the basement near the furnace"
-"<span class='ans'>In the living room or hallway</span>"
+"In the duct near the furnace room",
+"In the basement near the furnace",
+"<span class='ans'>In the living room or hallway</span>",
 "In the front entrance"
 ]
 const Q160A = [
-"<span class='ans'>A measure of the quantity of electron flow.</span>"
-"A measure of the amount of electrical pressure."
-"A measure of how much a circuit will limit current flow."
+"<span class='ans'>A measure of the quantity of electron flow.</span>",
+"A measure of the amount of electrical pressure.",
+"A measure of how much a circuit will limit current flow.",
 "A measure of the amount of power used by a circuit."
 ]
 const Q161A = [
-"The quantity of electrons flowing"
-"The amount of electrical pressure"
-"How much a circuit will limit current flow"
+"The quantity of electrons flowing",
+"The amount of electrical pressure",
+"How much a circuit will limit current flow",
 "<span class='ans'>The amount of power used by a circuit</span>"
 ]
 const Q162A = [
-"Power decrease"
-"<span class='ans'>Voltage increase</span>"
-"Resistance decrease"
+"Power decrease",
+"<span class='ans'>Voltage increase</span>",
+"Resistance decrease",
 "Amperage stays consistent"
 ]
 
@@ -1261,7 +1261,7 @@ function compile() {
       correctAnswer: "<span class='ans'>the Technical Standards and Safety Act</span>",
     },
     {
-      question: "Identify the correct blade to be used in a chop saw when cutting non-Ferris metals and plastic? ",
+      question: "Identify the correct blade to be used in a chop saw when cutting non-ferrous metals and plastic? ",
       answers: {
         [Q29A[0]]: "",
         [Q29A[1]]: "",
@@ -1281,7 +1281,7 @@ function compile() {
       correctAnswer: "<span class='ans'>CSA</span>",
     },
     {
-      question: "If an employee noticed a contravention of the safety act or regulation, or a job site hazard, who would the employee first report these situations to? (#15-33) (If an employee noticed a contravention of the safety act or regulation, or a job site hazard, who would the employee first report these situations to? ",
+      question: "If an employee noticed a contravention of the safety act or regulation, or a job site hazard, who would the employee first report these situations to?",
       answers: {
         [Q31A[0]]: "",
         [Q31A[1]]: "",
@@ -1548,7 +1548,7 @@ function compile() {
         [Q57A[2]]: "",
         [Q57A[3]]: ""
       },
-      correctAnswer: "<span class='ans'>10 to 1</span>",
+      correctAnswer: "<span class='ans'>25 to 1</span>",
     },
     {
       question: "What is the expansion rate of propane? ",
@@ -2161,7 +2161,7 @@ function compile() {
       correctAnswer: "<span class='ans'>Short out heat anticipator</span>"
     },
     {
-      question: "How far should be the base of a ladder is from the building if the ladder is 36 feet high?",
+      question: "How far should the base of a ladder be, from the building, if the ladder is 36 feet high?",
       answers: {
         [Q119A[0]]: "",
         [Q119A[1]]: "",
@@ -2198,7 +2198,7 @@ function compile() {
         [Q122A[2]]: "",
         [Q122A[3]]: ""
       },
-      correctAnswer: "<span class='ans'>Technical Standard Safety Authority</span>"
+      correctAnswer: "<span class='ans'>Technical Standards and Safety Authority</span>"
     },
     {
       question: "What is the flammability range of Butane? ",
@@ -2561,7 +2561,7 @@ function compile() {
       correctAnswer: "<span class='ans'>3.41</span>"
     },
     {
-      question: "Which of the following is the best location for residential central heating thermostat? ",
+      question: "Which of the following is the best location for a residential central heating thermostat? ",
       answers: {
         [Q159A[0]]: "",
         [Q159A[1]]: "",
@@ -2852,4 +2852,26 @@ function massShuffle() {
   shuffle(Q138A);
   shuffle(Q139A);
   shuffle(Q140A);
+  shuffle(Q141A);
+  shuffle(Q142A);
+  shuffle(Q143A);
+  shuffle(Q144A);
+  shuffle(Q145A);
+  shuffle(Q146A);
+  shuffle(Q147A);
+  shuffle(Q148A);
+  shuffle(Q149A);
+  shuffle(Q150A);
+  shuffle(Q151A);
+  shuffle(Q152A);
+  shuffle(Q153A);
+  shuffle(Q154A);
+  shuffle(Q155A);
+  shuffle(Q156A);
+  shuffle(Q157A);
+  shuffle(Q158A);
+  shuffle(Q159A);
+  shuffle(Q160A);
+  shuffle(Q161A);
+  shuffle(Q162A);
 }
