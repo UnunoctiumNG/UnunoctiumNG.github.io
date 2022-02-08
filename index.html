@@ -1,6 +1,99 @@
-<!DOCTYPE html>
 <html>
-<body>
-<p>null</p>
-</body>
+  <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+
+    <div class="tab">
+      <button class="tablinks" onclick="openTab(event, 'divHome')">Home</button>
+      <button class="tablinks" onclick="openTab(event, 'divTest1')">Test 1 (162 Q)</button>
+      <button class="tablinks" onclick="openTab(event, 'divTest2')">Test 2 (320 Q)</button>
+      <!--<button class="tablinks" onclick="openTab(event, 'divTest3')">Test 3 (110 Q)</button>-->
+    </div>
+
+
+
+
+    <div id="divHome" class="tabcontent">
+      <h3>Home</h3>
+
+          <p>All tests are posted here. Use the tabs at the top to navigate between them.</p>
+
+    </div>
+
+
+
+
+
+    <div id="divTest1" class="tabcontent">
+      <h3>Test 1 (162 Questions)</h3>
+
+        <div id="quiz1">
+          <p>I did not write these questions or answers so I cannot confirm their accuracy. Upon submission, correctly answered questions will be coloured green, incorrect red, and all actual answers will be bolded.</p>
+
+          <p>Questions and answer orders are randomized each time.</p>
+          <p>How many questions would you like? (162 maximum)</p>
+          <input type="text" id="NumQuestionsInput1">
+
+          <button onclick="compile1()">Generate</button>
+          </div>
+        <input type="button" id="submit1" value="Submit" />
+        <div id="results1"></div>
+    </div>
+
+
+
+
+
+
+    <div id="divTest2" class="tabcontent">
+      <h3>Test 2 (320 Questions)</h3>
+
+        <div id="quiz2">
+          <p>I did not write these questions or answers so I cannot confirm their accuracy. Upon submission, correctly answered questions will be coloured green, incorrect red, and all actual answers will be bolded.</p>
+
+          <p>Questions and answer orders are randomized each time.</p>
+          <p>How many questions would you like? (320 maximum)</p>
+
+          <input type="text" id="NumQuestionsInput2">
+
+          <button onclick="compile2()">Generate</button>
+          </div>
+        <input type="button" id="submit2" value="Submit" />
+        <div id="results2"></div>
+    </div>
+
+
+
+
+
+
+
+    <div id="divTest3" class="tabcontent">
+      <h3>Test 3 (110 Questions)</h3>
+
+        <div id="quiz3">
+          <p>I did not write these questions or answers so I cannot confirm their accuracy. Upon submission, correctly answered questions will be coloured green, incorrect red, and all actual answers will be bolded.</p>
+
+          <p>Questions and answer orders are randomized each time.</p>
+          <p>How many questions would you like? (162 maximum)</p>
+
+          <input type="text" id="NumQuestionsInput3">
+
+          <button onclick="compile3()">Generate</button>
+          </div>
+        <input type="button" id="submit3" value="Submit" />
+        <div id="results3"></div>
+    </div>
+
+
+
+
+
+
+
+  </body>
 </html>
